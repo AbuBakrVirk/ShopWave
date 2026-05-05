@@ -1,114 +1,70 @@
-# Deployment Guide
+# Deployment Guide — Railway + Vercel
 
-## Overview
-
-| Service  | Platform | Folder     |
-|----------|----------|------------|
-| Backend  | Railway  | `/backend` |
-| Frontend | Vercel   | `/frontend`|
+## Your Railway Backend URL
+```
+https://shopwave-production-d1ad.up.railway.app
+```
+Test it now in your browser:
+```
+https://shopwave-production-d1ad.up.railway.app/api/health
+```
+Expected response: `{ "status": "ok", "message": "ShopWave API is running" }`
 
 ---
 
-## 1 — Deploy Backend to Railway
+## Railway — Variables to set
 
-### Step 1 — Push to GitHub
-Make sure your project is in a GitHub repository.
-
-### Step 2 — Create Railway project
-1. Go to [railway.app](https://railway.app) → **New Project**
-2. Choose **Deploy from GitHub repo**
-3. Select your repository
-4. Railway will auto-detect Node.js via `backend/package.json`
-
-### Step 3 — Set the root directory
-In Railway → your service → **Settings** → **Root Directory**:
-```
-backend
-```
-
-### Step 4 — Set environment variables
-In Railway → your service → **Variables**, add:
+Go to Railway → your service → **Variables** tab and add:
 
 | Variable       | Value                                      |
 |----------------|--------------------------------------------|
-| `JWT_SECRET`   | any long random string (e.g. 64 char hex)  |
-| `FRONTEND_URL` | your Vercel URL (added after step 2 below) |
+| `JWT_SECRET`   | any long random string (min 32 chars)      |
+| `FRONTEND_URL` | your Vercel URL (add after Vercel deploy)  |
 
-Railway sets `PORT` automatically — do **not** add it manually.
-
-### Step 5 — Deploy
-Railway deploys automatically on every push to your main branch.
-
-After deploy, copy your Railway URL — it looks like:
-```
-https://shopwave-backend.up.railway.app
-```
+> `PORT` is set by Railway automatically — do NOT add it.
 
 ---
 
-## 2 — Deploy Frontend to Vercel
+## Vercel — Deploy Frontend
 
-### Step 1 — Import project
-1. Go to [vercel.com](https://vercel.com) → **Add New Project**
-2. Import your GitHub repository
-3. Set **Root Directory** to `frontend`
-4. Framework preset: **Vite** (auto-detected)
+### 1. Import project
+- [vercel.com](https://vercel.com) → **Add New Project** → import your GitHub repo
+- **Root Directory** → `frontend`
+- Framework: **Vite** (auto-detected)
 
-### Step 2 — Set environment variable
-In Vercel → your project → **Settings** → **Environment Variables**:
+### 2. Environment Variable
+Vercel → **Settings** → **Environment Variables** → add:
 
-| Variable       | Value                                          |
-|----------------|------------------------------------------------|
-| `VITE_API_URL` | your Railway URL, e.g. `https://shopwave-backend.up.railway.app` |
+| Variable       | Value                                                    |
+|----------------|----------------------------------------------------------|
+| `VITE_API_URL` | `https://shopwave-production-d1ad.up.railway.app`        |
 
-> No trailing slash on the URL.
+> The `frontend/.env.production` file already has this set, so Vercel will
+> pick it up automatically even without the dashboard variable — but setting
+> it in the dashboard is best practice so you can change it without redeploying.
 
-### Step 3 — Deploy
-Click **Deploy**. Vercel builds with `npm run build` and serves `dist/`.
-
-After deploy, copy your Vercel URL — it looks like:
-```
-https://shopwave.vercel.app
-```
+### 3. Deploy
+Click **Deploy**. After it finishes, copy your Vercel URL.
 
 ---
 
-## 3 — Connect them together
+## Final step — connect Vercel URL back to Railway
 
-Go back to **Railway** → **Variables** and update:
-```
-FRONTEND_URL = https://shopwave.vercel.app
-```
-
-Redeploy the Railway service (or it picks up the variable on next push).
+1. Copy your Vercel URL (e.g. `https://shopwave.vercel.app`)
+2. Railway → Variables → set `FRONTEND_URL` = `https://shopwave.vercel.app`
+3. Railway redeploys automatically
 
 ---
 
-## Local Development (unchanged)
+## Local Development
 
 ```bash
 # Terminal 1 — backend
-cd backend && npm run dev
+cd backend && npm run dev      # http://localhost:5000
 
-# Terminal 2 — frontend
-cd frontend && npm run dev
+# Terminal 2 — frontend  
+cd frontend && npm run dev     # http://localhost:5173
 ```
 
-The Vite dev server proxies `/api/*` to `localhost:5000` automatically.
-No `.env` file needed locally.
-
----
-
-## Environment Variables Summary
-
-### backend/.env (local only, never commit)
-```
-JWT_SECRET=any_long_random_string
-FRONTEND_URL=http://localhost:5173
-```
-
-### frontend/.env.local (local only, never commit)
-```
-# Leave empty for local dev — Vite proxy handles it
-# VITE_API_URL=
-```
+Vite proxies `/api/*` → `localhost:5000` in dev mode.
+The `.env.production` file is only used during `npm run build`.
