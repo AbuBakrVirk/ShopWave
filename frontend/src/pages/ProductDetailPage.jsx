@@ -8,7 +8,7 @@ import {
   ShoppingCart, Heart, Star, Truck, Shield, RefreshCw,
   ChevronRight, Minus, Plus, Share2, Check
 } from 'lucide-react';
-import axios from 'axios';
+import axios from '../lib/axios';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
 import ProductCard from '../components/ui/ProductCard';

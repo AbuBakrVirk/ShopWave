@@ -5,7 +5,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { CreditCard, Truck, CheckCircle, Lock, ChevronRight } from 'lucide-react';
-import axios from 'axios';
+import axios from '../lib/axios';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import toast from 'react-hot-toast';

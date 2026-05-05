@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Package, ChevronRight, Search, ShoppingBag } from 'lucide-react';
-import axios from 'axios';
+import axios from '../lib/axios';
 import { useAuth } from '../context/AuthContext';
 
 const STATUS_STYLES = {

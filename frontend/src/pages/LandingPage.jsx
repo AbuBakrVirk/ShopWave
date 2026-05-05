@@ -4,7 +4,7 @@ import {
   ArrowRight, ShieldCheck, Truck, RefreshCw, Headphones,
   Star, ChevronRight, Zap, TrendingUp, Award, Users
 } from 'lucide-react';
-import axios from 'axios';
+import axios from '../lib/axios';
 import ProductCard from '../components/ui/ProductCard';
 import { ProductSkeletonGrid } from '../components/ui/ProductSkeleton';
 

@@ -6,7 +6,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight, ShoppingBag, Truck, Shield, RefreshCw, Headphones, ChevronRight } from 'lucide-react';
-import axios from 'axios';
+import axios from '../lib/axios';
 import ProductCard from '../components/ui/ProductCard';
 import { ProductSkeletonGrid } from '../components/ui/ProductSkeleton';
 

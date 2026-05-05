@@ -4,7 +4,7 @@
 
 import { useState, useEffect } from 'react';
 import { Search, Eye, X } from 'lucide-react';
-import axios from 'axios';
+import axios from '../../lib/axios';
 import toast from 'react-hot-toast';
 
 const STATUS_OPTIONS = ['pending', 'confirmed', 'processing', 'shipped', 'delivered', 'cancelled'];

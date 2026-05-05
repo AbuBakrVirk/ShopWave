@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { SlidersHorizontal, X, ChevronLeft, ChevronRight, Search, LayoutGrid, List } from 'lucide-react';
-import axios from 'axios';
+import axios from '../lib/axios';
 import ProductCard from '../components/ui/ProductCard';
 import { ProductSkeletonGrid } from '../components/ui/ProductSkeleton';
 

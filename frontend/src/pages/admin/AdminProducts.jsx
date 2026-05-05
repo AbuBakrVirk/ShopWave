@@ -4,7 +4,7 @@
 
 import { useState, useEffect } from 'react';
 import { Plus, Edit2, Trash2, Search, X, Save, AlertTriangle } from 'lucide-react';
-import axios from 'axios';
+import axios from '../../lib/axios';
 import toast from 'react-hot-toast';
 
 const EMPTY_FORM = {
