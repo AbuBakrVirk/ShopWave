@@ -1,0 +1,444 @@
+[
+  {
+    "id": "1",
+    "name": "Apple iPhone 15 Pro Max",
+    "category": "Electronics",
+    "price": 1299.99,
+    "originalPrice": 1499.99,
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500",
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500"
+    ],
+    "description": "The most powerful iPhone ever. Features a titanium design, A17 Pro chip, and a pro camera system with 5x optical zoom.",
+    "brand": "Apple",
+    "stock": 45,
+    "rating": 4.8,
+    "reviewCount": 2341,
+    "featured": true,
+    "tags": ["smartphone", "apple", "5g", "pro"],
+    "specifications": {
+      "Display": "6.7-inch Super Retina XDR",
+      "Chip": "A17 Pro",
+      "Camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+      "Battery": "4422 mAh",
+      "Storage": "256GB"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "Electronics",
+    "price": 1199.99,
+    "originalPrice": 1399.99,
+    "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500"
+    ],
+    "description": "Galaxy AI is here. The Samsung Galaxy S24 Ultra features a built-in S Pen, 200MP camera, and Snapdragon 8 Gen 3.",
+    "brand": "Samsung",
+    "stock": 30,
+    "rating": 4.7,
+    "reviewCount": 1876,
+    "featured": true,
+    "tags": ["smartphone", "samsung", "android", "s-pen"],
+    "specifications": {
+      "Display": "6.8-inch Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 3",
+      "Camera": "200MP Main",
+      "Battery": "5000 mAh",
+      "Storage": "256GB"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Sony WH-1000XM5 Headphones",
+    "category": "Electronics",
+    "price": 349.99,
+    "originalPrice": 399.99,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500"
+    ],
+    "description": "Industry-leading noise canceling with two processors and eight microphones. 30-hour battery life with quick charging.",
+    "brand": "Sony",
+    "stock": 60,
+    "rating": 4.9,
+    "reviewCount": 3210,
+    "featured": true,
+    "tags": ["headphones", "wireless", "noise-canceling", "sony"],
+    "specifications": {
+      "Driver": "30mm",
+      "Frequency": "4Hz-40,000Hz",
+      "Battery": "30 hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Weight": "250g"
+    }
+  },
+  {
+    "id": "4",
+    "name": "MacBook Pro 14-inch M3",
+    "category": "Computers",
+    "price": 1999.99,
+    "originalPrice": 2199.99,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500"
+    ],
+    "description": "The MacBook Pro with M3 chip delivers exceptional performance for professionals. Features a stunning Liquid Retina XDR display.",
+    "brand": "Apple",
+    "stock": 20,
+    "rating": 4.9,
+    "reviewCount": 987,
+    "featured": true,
+    "tags": ["laptop", "apple", "macbook", "m3"],
+    "specifications": {
+      "Chip": "Apple M3",
+      "Display": "14.2-inch Liquid Retina XDR",
+      "RAM": "18GB",
+      "Storage": "512GB SSD",
+      "Battery": "Up to 18 hours"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Nike Air Max 270",
+    "category": "Fashion",
+    "price": 149.99,
+    "originalPrice": 179.99,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
+    ],
+    "description": "The Nike Air Max 270 delivers unrivaled, all-day comfort. The design draws inspiration from Air Max icons.",
+    "brand": "Nike",
+    "stock": 100,
+    "rating": 4.5,
+    "reviewCount": 5432,
+    "featured": false,
+    "tags": ["shoes", "nike", "running", "sports"],
+    "specifications": {
+      "Material": "Mesh upper",
+      "Sole": "Rubber",
+      "Closure": "Lace-up",
+      "Style": "Athletic"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Adidas Ultraboost 23",
+    "category": "Fashion",
+    "price": 189.99,
+    "originalPrice": 220.00,
+    "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500"
+    ],
+    "description": "Experience incredible energy return with every step. The Adidas Ultraboost 23 features BOOST midsole technology.",
+    "brand": "Adidas",
+    "stock": 75,
+    "rating": 4.6,
+    "reviewCount": 3120,
+    "featured": false,
+    "tags": ["shoes", "adidas", "running", "boost"],
+    "specifications": {
+      "Upper": "Primeknit+",
+      "Midsole": "BOOST",
+      "Outsole": "Continental Rubber",
+      "Drop": "10mm"
+    }
+  },
+  {
+    "id": "7",
+    "name": "LG OLED C3 55-inch TV",
+    "category": "Electronics",
+    "price": 1299.99,
+    "originalPrice": 1799.99,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829e1?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829e1?w=500"
+    ],
+    "description": "LG OLED evo C3 with α9 AI Processor 4K Gen6. Perfect blacks, infinite contrast, and stunning colors.",
+    "brand": "LG",
+    "stock": 15,
+    "rating": 4.8,
+    "reviewCount": 1543,
+    "featured": true,
+    "tags": ["tv", "oled", "4k", "smart-tv"],
+    "specifications": {
+      "Display": "55-inch OLED evo",
+      "Resolution": "4K Ultra HD",
+      "HDR": "Dolby Vision, HDR10",
+      "Refresh Rate": "120Hz",
+      "Smart TV": "webOS 23"
+    }
+  },
+  {
+    "id": "8",
+    "name": "Instant Pot Duo 7-in-1",
+    "category": "Home & Kitchen",
+    "price": 89.99,
+    "originalPrice": 119.99,
+    "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1585515320310-259814833e62?w=500"
+    ],
+    "description": "The Instant Pot Duo is the #1 selling multi-cooker. 7-in-1 functionality: pressure cooker, slow cooker, rice cooker, steamer, sauté, yogurt maker, and warmer.",
+    "brand": "Instant Pot",
+    "stock": 200,
+    "rating": 4.7,
+    "reviewCount": 89432,
+    "featured": false,
+    "tags": ["kitchen", "cooking", "pressure-cooker", "instant-pot"],
+    "specifications": {
+      "Capacity": "6 Quart",
+      "Functions": "7-in-1",
+      "Material": "Stainless Steel",
+      "Wattage": "1000W"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Dyson V15 Detect Vacuum",
+    "category": "Home & Kitchen",
+    "price": 699.99,
+    "originalPrice": 749.99,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500"
+    ],
+    "description": "The Dyson V15 Detect uses a laser to reveal microscopic dust. Automatically adapts suction power to the task.",
+    "brand": "Dyson",
+    "stock": 35,
+    "rating": 4.6,
+    "reviewCount": 2109,
+    "featured": false,
+    "tags": ["vacuum", "dyson", "cordless", "cleaning"],
+    "specifications": {
+      "Suction": "230 AW",
+      "Battery": "60 minutes",
+      "Bin Volume": "0.77L",
+      "Weight": "3.1kg"
+    }
+  },
+  {
+    "id": "10",
+    "name": "The North Face Puffer Jacket",
+    "category": "Fashion",
+    "price": 299.99,
+    "originalPrice": 350.00,
+    "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=500"
+    ],
+    "description": "Stay warm in style with The North Face 1996 Retro Nuptse Jacket. Iconic design with 700-fill goose down insulation.",
+    "brand": "The North Face",
+    "stock": 50,
+    "rating": 4.7,
+    "reviewCount": 4321,
+    "featured": false,
+    "tags": ["jacket", "winter", "north-face", "outdoor"],
+    "specifications": {
+      "Fill": "700-fill goose down",
+      "Material": "Recycled nylon",
+      "Fit": "Regular",
+      "Pockets": "2 hand pockets"
+    }
+  },
+  {
+    "id": "11",
+    "name": "iPad Pro 12.9-inch M2",
+    "category": "Electronics",
+    "price": 1099.99,
+    "originalPrice": 1199.99,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500"
+    ],
+    "description": "The ultimate iPad experience with the M2 chip, Liquid Retina XDR display, and Apple Pencil hover.",
+    "brand": "Apple",
+    "stock": 25,
+    "rating": 4.8,
+    "reviewCount": 1234,
+    "featured": false,
+    "tags": ["tablet", "apple", "ipad", "m2"],
+    "specifications": {
+      "Chip": "Apple M2",
+      "Display": "12.9-inch Liquid Retina XDR",
+      "Storage": "256GB",
+      "Camera": "12MP Wide + 10MP Ultra Wide",
+      "Connectivity": "Wi-Fi 6E, 5G"
+    }
+  },
+  {
+    "id": "12",
+    "name": "Levi's 501 Original Jeans",
+    "category": "Fashion",
+    "price": 69.99,
+    "originalPrice": 89.99,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500"
+    ],
+    "description": "The original blue jean since 1873. The Levi's 501 Original Fit Jeans are a timeless classic with a straight leg.",
+    "brand": "Levi's",
+    "stock": 150,
+    "rating": 4.4,
+    "reviewCount": 12543,
+    "featured": false,
+    "tags": ["jeans", "levis", "denim", "casual"],
+    "specifications": {
+      "Fit": "Original/Straight",
+      "Material": "100% Cotton",
+      "Rise": "Mid Rise",
+      "Closure": "Button fly"
+    }
+  },
+  {
+    "id": "13",
+    "name": "Kindle Paperwhite 11th Gen",
+    "category": "Electronics",
+    "price": 139.99,
+    "originalPrice": 159.99,
+    "image": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=500"
+    ],
+    "description": "The thinnest, lightest Kindle Paperwhite ever. Waterproof with a 6.8-inch display and adjustable warm light.",
+    "brand": "Amazon",
+    "stock": 80,
+    "rating": 4.7,
+    "reviewCount": 34521,
+    "featured": false,
+    "tags": ["ereader", "kindle", "amazon", "books"],
+    "specifications": {
+      "Display": "6.8-inch 300 ppi",
+      "Storage": "8GB",
+      "Battery": "Up to 10 weeks",
+      "Waterproof": "IPX8",
+      "Light": "Adjustable warm/cool"
+    }
+  },
+  {
+    "id": "14",
+    "name": "IKEA KALLAX Shelf Unit",
+    "category": "Furniture",
+    "price": 129.99,
+    "originalPrice": 149.99,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500"
+    ],
+    "description": "Versatile shelf unit that can be used as a room divider, TV bench, or bookcase. Fits 13-inch record sleeves.",
+    "brand": "IKEA",
+    "stock": 40,
+    "rating": 4.3,
+    "reviewCount": 8765,
+    "featured": false,
+    "tags": ["furniture", "shelf", "storage", "ikea"],
+    "specifications": {
+      "Dimensions": "77x147 cm",
+      "Material": "Particleboard",
+      "Compartments": "8",
+      "Max Load": "13kg per compartment"
+    }
+  },
+  {
+    "id": "15",
+    "name": "Nespresso Vertuo Next Coffee",
+    "category": "Home & Kitchen",
+    "price": 179.99,
+    "originalPrice": 229.99,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500"
+    ],
+    "description": "Brew 5 different cup sizes with Nespresso Vertuo Next. Centrifusion technology for perfect coffee every time.",
+    "brand": "Nespresso",
+    "stock": 55,
+    "rating": 4.5,
+    "reviewCount": 6789,
+    "featured": false,
+    "tags": ["coffee", "nespresso", "kitchen", "espresso"],
+    "specifications": {
+      "Cup Sizes": "5 (Espresso to Alto)",
+      "Pressure": "19 bar",
+      "Water Tank": "1.1L",
+      "Heating Time": "30 seconds"
+    }
+  },
+  {
+    "id": "16",
+    "name": "PlayStation 5 Console",
+    "category": "Gaming",
+    "price": 499.99,
+    "originalPrice": 499.99,
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=500"
+    ],
+    "description": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback.",
+    "brand": "Sony",
+    "stock": 10,
+    "rating": 4.9,
+    "reviewCount": 45678,
+    "featured": true,
+    "tags": ["gaming", "playstation", "console", "sony"],
+    "specifications": {
+      "CPU": "AMD Zen 2, 8 Cores",
+      "GPU": "AMD RDNA 2, 10.28 TFLOPS",
+      "Storage": "825GB SSD",
+      "Resolution": "Up to 8K",
+      "Frame Rate": "Up to 120fps"
+    }
+  },
+  {
+    "id": "17",
+    "name": "Canon EOS R6 Mark II",
+    "category": "Electronics",
+    "price": 2499.99,
+    "originalPrice": 2699.99,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500"
+    ],
+    "description": "The Canon EOS R6 Mark II is a versatile full-frame mirrorless camera with 40fps burst shooting and advanced AF.",
+    "brand": "Canon",
+    "stock": 18,
+    "rating": 4.8,
+    "reviewCount": 876,
+    "featured": false,
+    "tags": ["camera", "canon", "mirrorless", "photography"],
+    "specifications": {
+      "Sensor": "24.2MP Full-Frame CMOS",
+      "ISO": "100-102400",
+      "Burst": "40fps",
+      "Video": "4K 60fps",
+      "Stabilization": "8-stop IBIS"
+    }
+  },
+  {
+    "id": "18",
+    "name": "Yoga Mat Premium Non-Slip",
+    "category": "Sports",
+    "price": 79.99,
+    "originalPrice": 99.99,
+    "image": "https://images.unsplash.com/photo-1601925228008-f5e4c5e5e5e5?w=500",
+    "images": [
+      "https://images.unsplash.com/photo-1601925228008-f5e4c5e5e5e5?w=500"
+    ],
+    "description": "Premium eco-friendly yoga mat with superior grip and cushioning. Perfect for yoga, pilates, and floor exercises.",
+    "brand": "Manduka",
+    "stock": 120,
+    "rating": 4.6,
+    "reviewCount": 3456,
+    "featured": false,
+    "tags": ["yoga", "fitness", "sports", "mat"],
+    "specifications": {
+      "Thickness": "6mm",
+      "Material": "Natural rubber",
+      "Dimensions": "71\" x 24\"",
+      "Weight": "2.2kg"
+    }
+  }
+]

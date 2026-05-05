@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Admin User",
+    "email": "admin@shopwave.com",
+    "password": "$2b$10$rQZ9uAVQUssunS3MdPZmOOWMmxmxmxmxmxmxmxmxmxmxmxmxmxmx",
+    "role": "admin",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "$2b$10$rQZ9uAVQUssunS3MdPZmOOWMmxmxmxmxmxmxmxmxmxmxmxmxmxmx",
+    "role": "user",
+    "createdAt": "2024-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "8ea042c4-716e-46c1-8a6c-5a1daa42ff95",
+    "name": "Abu Bakar Virk",
+    "email": "abubakarv505@gmail.com",
+    "password": "$2a$10$zkjwl9ZtmLNmkr2Xr6Qfcehr9Y9Jp5Fu779gn4/gjVgEeoEWuOmKm",
+    "role": "user",
+    "createdAt": "2026-05-05T13:01:10.013Z"
+  }
+]

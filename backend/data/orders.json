@@ -1,0 +1,64 @@
+[
+  {
+    "id": "faceefa2-40d7-4ac7-99b0-f6aa1b12cd3c",
+    "orderNumber": "SW-1777986771033",
+    "customer": {
+      "name": "Abu Bakar Virk",
+      "email": "abubakarv505@gmail.com",
+      "phone": "0335453545",
+      "address": "Virk house",
+      "city": "Pasrur",
+      "zipCode": "51480"
+    },
+    "items": [
+      {
+        "productId": "14",
+        "name": "IKEA KALLAX Shelf Unit",
+        "price": 129.99,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500",
+        "subtotal": 129.99
+      },
+      {
+        "productId": "2",
+        "name": "Samsung Galaxy S24 Ultra",
+        "price": 1199.99,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500",
+        "subtotal": 1199.99
+      }
+    ],
+    "totalAmount": 1436.3784,
+    "paymentMethod": "Credit/Debit Card",
+    "status": "pending",
+    "createdAt": "2026-05-05T13:12:51.037Z",
+    "updatedAt": "2026-05-05T13:12:51.037Z"
+  },
+  {
+    "id": "457404b1-bfc2-4af1-a166-f49e8ada0546",
+    "orderNumber": "SW-1777987020259",
+    "customer": {
+      "name": "Abu Bakar Virk",
+      "email": "abubakarv505@gmail.com",
+      "phone": "23456",
+      "address": "Virk house",
+      "city": "Pasrur",
+      "zipCode": "51480"
+    },
+    "items": [
+      {
+        "productId": "2",
+        "name": "Samsung Galaxy S24 Ultra",
+        "price": 1199.99,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500",
+        "subtotal": 1199.99
+      }
+    ],
+    "totalAmount": 1295.9892,
+    "paymentMethod": "Cash on Delivery",
+    "status": "pending",
+    "createdAt": "2026-05-05T13:17:00.259Z",
+    "updatedAt": "2026-05-05T13:17:00.259Z"
+  }
+]
